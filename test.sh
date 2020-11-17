@@ -35,3 +35,9 @@ echo "String 'Hello!' given - error should be returned"
 java Dec2Hex.java 'Hello'
 
 echo " "
+
+echo "Double 2.5 given - error should be return"
+
+java Dec2Hex.java 2.5
+
+echo " "
