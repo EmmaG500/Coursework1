@@ -6,4 +6,4 @@ echo " "
 
 echo "No arguments given - expecting no output"
 
-javac Dec2Hex.java
+java Dec2Hex.java
