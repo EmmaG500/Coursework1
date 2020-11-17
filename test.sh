@@ -23,3 +23,9 @@ echo "Argument 456 given - expecting 1C8"
 java Dec2Hex.java 456
 
 echo " "
+
+echo "Argument 0 given - expecting 0"
+
+java Dec2Hex.java
+
+echo " "
