@@ -36,8 +36,14 @@ java Dec2Hex.java 'Hello'
 
 echo " "
 
-echo "Double 2.5 given - error should be return"
+echo "Double 2.5 given - error should be returned"
 
 java Dec2Hex.java 2.5
+
+echo " "
+
+echo "Negative value -15 given - F should be returned"
+
+java Dec2Hex.java -15
 
 echo " "
