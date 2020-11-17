@@ -17,3 +17,9 @@ echo "Argument 15 given - expecting F"
 java Dec2Hex.java 15
 
 echo " "
+
+echo "Argument 456 given - expecting 1C8"
+
+java Dec2Hex.java 456
+
+echo " "
