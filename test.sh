@@ -26,6 +26,12 @@ echo " "
 
 echo "Argument 0 given - expecting 0"
 
-java Dec2Hex.java
+java Dec2Hex.java 0
+
+echo " "
+
+echo "String 'Hello!' given - error should be returned"
+
+java Dec2Hex.java 'Hello'
 
 echo " "
