@@ -8,7 +8,7 @@ echo "Beginning tests..."
 
 echo " "
 
-echo "No arguments given - expecting no output"
+echo "No arguments given - expecting program to end"
 
 java Dec2Hex
 
