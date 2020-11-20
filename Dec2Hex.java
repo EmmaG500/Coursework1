@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import package.Dec2Hex;
 
 class Dec2Hex
 {
