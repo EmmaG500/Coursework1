@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 echo " "
 
 echo "Beginning tests..."
@@ -45,5 +47,9 @@ echo " "
 echo "Negative value -15 given - F should be returned"
 
 java Dec2Hex.java -15
+
+echo " "
+
+echo "End of tests..."
 
 echo " "
