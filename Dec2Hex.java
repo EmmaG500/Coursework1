@@ -21,6 +21,12 @@ class Dec2Hex
             }
         }
 
+	if(Arg1==0){
+	  System.out.println("Converting the Decimal Value " + Arg1 + " to Hex...");
+	  System.out.println("Hexadecimal representation is : " + Arg1);
+	  System.exit(0);
+	}
+
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
          int rem, num;
 	num = Arg1;
