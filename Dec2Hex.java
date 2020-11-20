@@ -18,7 +18,7 @@ class Dec2Hex
             try 
             {
                 Arg1 = Integer.parseInt(args[0]);
-		Arg1 = Math.abs(Arg1);
+		//Arg1 = Math.abs(Arg1);
             } 
             catch (NumberFormatException e) 
             {
